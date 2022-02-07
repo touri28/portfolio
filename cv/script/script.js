@@ -2,7 +2,7 @@ $(function(){
 	$(".navbar a, footer a").on("click", function(event){
 		event.preventDefault();
 		var hash = this.hash;
-		$ ("body").animate({scrolltop : $(hash).offset().top}, 900 ,function(){
+		$ ("body").animate({scrolltop : $(hash).offset().top}, 889 ,function(){
 			window.location.hash = hash;})
 	});
 		$('#contact-form').submit(function(e){
