@@ -24,7 +24,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST")
 		
 	if(empty( $array["nom"]))
 	{
-	     $array["nomerror"]="et oui,je veux tout savoir,meme ton nom ";  
+	     $array["nomerror"]="et oui,je veux tout savoir.meme ton nom ";  
 	     $array["issucces"]=false;
 	}
 	else
